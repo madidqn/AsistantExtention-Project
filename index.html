@@ -6,6 +6,8 @@
     <title>Document</title>
     <!-- style -->
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/weather.css" />
+    <link rel="stylesheet" href="./assets/css/searchGoogle.css" />
     <!-- icon -->
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
@@ -22,8 +24,61 @@
         </div>
       </header>
       <main class="displayGrid">
-        <section></section>
-        <section></section>
+        <!--weather -->
+        <section class="sectionWeather displayGrid">
+          <div class="boxWeatherAndTime displayGrid">
+            <div class="boxTime">
+              <h2>TIME AND DATE</h2>
+              <h3 class="todayDate">12/3/1402</h3>
+              <div class="lunarYearAndGregorianYear displayFlex">
+                <span class="lunarYear">2024</span>
+                <span class="gregorianYear">1440</span>
+              </div>
+              <div class="legalAndTimer displayFlex">
+                <select>
+                  <option>تایمر</option>
+                  <option>تایمر</option>
+                  <option>تایمر</option>
+                </select>
+                <select>
+                  <option>اوقات شرعی</option>
+                  <option>اوقات شرعی</option>
+                  <option>اوقات شرعی</option>
+                </select>
+              </div>
+            </div>
+            <div class="boxWeather">
+              <div class="temperature displayFlex">
+                <h1>temp</h1>
+                <i></i>
+              </div>
+              <h3>tepm</h3>
+              <div class="maximumAndMinimum">
+                <span class="maximum">18</span>
+                <span class="minimum">12</span>
+              </div>
+              <div class="forecast">
+                <select>
+                  <option>پیش بینی</option>
+                  <option>پیش بینی</option>
+                  <option>پیش بینی</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div></div>
+        </section>
+        <!-- search google -->
+        <section class="sectionSearchGoogle displayGrid">
+          <div class="boxSearchGoogle displayFlex">
+            <div class="inputSearch displayFlex">
+              <img src="./images/icons8-google-480.png" />
+              <input type="text" placeholder="جستجو در گوگل" />
+              <a href="#" class="displayFlex"><i class="bx bx-search"></i></a>
+            </div>
+          </div>
+        </section>
+
         <section></section>
       </main>
     </div>

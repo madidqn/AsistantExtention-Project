@@ -7,6 +7,11 @@
 }
 :root {
   --body-color: #c4def7;
+  --white-color: white;
+  --darkblue-color: darkblue;
+  --blue-color: blue;
+  --gray-color: gray;
+  --light-color: rgb(233, 229, 229);
   --font-family: "Vazirmatn", sans-serif;
 }
 body {
@@ -16,6 +21,9 @@ body {
 }
 .displayGrid {
   display: grid;
+}
+.displayFlex {
+  display: flex;
 }
 .container {
   width: 90%;
