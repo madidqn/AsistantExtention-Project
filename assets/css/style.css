@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+:root {
+  --body-color: #c4def7;
+  --font-family: "Vazirmatn", sans-serif;
+}
+body {
+  background-color: var(--body-color);
+  min-height: 100vh;
+  font-family: var(--font-family);
+}
+.displayGrid {
+  display: grid;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  height: 100vh;
+  padding-bottom: 1rem;
+}
+/*header page */
+header {
+  padding: 1% 0;
+  width: 100%;
+}
+header .headerIcons i {
+  padding: 0 5px;
+  font-size: 2rem;
+  color: var(--white-color);
+}
+header .headerIcons a:hover {
+  opacity: 0.6;
+}
+/* body page */
+main {
+  width: 100%;
+  height: 90%;
+  grid-template-columns: 3fr 5fr 3fr;
+  grid-gap: 0 1%;
+  align-items: start;
+}
