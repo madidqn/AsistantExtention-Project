@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/weather.css" />
     <link rel="stylesheet" href="./assets/css/searchGoogle.css" />
+    <link rel="stylesheet" href="./assets/css/todoList.css" />
     <!-- icon -->
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
@@ -126,8 +127,30 @@
             </div>
           </div>
         </section>
-
-        <section></section>
+        <!-- todolist -->
+        <section class="sectionToDoList">
+          <div class="wrapperToDoList">
+            <div class="title displayGrid">
+              <h3>دست نویس</h3>
+              <div class="displayFlex">
+                <a href="#"><i class="bx bxs-low-vision"></i></a>
+              </div>
+            </div>
+            <div class="boxShowItems">
+              <ul class="toDoList"></ul>
+            </div>
+            <div class="boxAddTask displayFlex">
+              <form>
+                <div class="inputTask displayFlex">
+                  <input type="text" placeholder="نوشتن تسک جدید" />
+                  <button class="displayFlex">
+                    <i class="bx bx-plus"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   </body>

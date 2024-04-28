@@ -1,0 +1,84 @@
+.sectionToDoList {
+  height: 100%;
+  border-radius: 24px;
+  background-color: var(--white-color);
+  direction: rtl;
+}
+.wrapperToDoList {
+  height: 100%;
+}
+.title {
+  grid-template-columns: 3fr 1fr;
+  align-items: center;
+  padding: 10px;
+  height: 9%;
+}
+.title h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.title div {
+  justify-content: flex-end;
+}
+.title i {
+  background-color: var(--light-color);
+  font-size: 1.5rem;
+  color: var(--darkblue-color);
+  padding: 5px;
+  border-radius: 4px;
+  display: inline-flex;
+}
+.boxShowItems {
+  height: 81%;
+  padding: 10px;
+  border-top: 1px solid var(--light-color);
+  border-bottom: 1px solid var(--light-color);
+}
+.toDoList {
+  height: 100%;
+}
+.toDoItem {
+  padding: 4px;
+  border: 1px solid var(--light-color);
+  margin-bottom: 6px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 6% 60% 34%;
+  align-items: center;
+  grid-gap: 3px;
+}
+.toDoItem li {
+  padding: 5px 0;
+  font-size: 1rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.toDoItem input[type="checkbox"] {
+  appearance: none;
+  background-color: aquamarine;
+  border: 1px solid rgb(5, 121, 82);
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;
+  margin-left: 5px;
+}
+.toDoItem .boxIconToDo {
+  display: none;
+}
+.boxIconToDo i {
+  color: var(--light-color);
+  font-size: 16px;
+}
+.boxIconToDo i:nth-child(1) {
+  margin-left: 5px;
+}
+.boxIconToDo i:nth-child(2):hover {
+  cursor: pointer;
+  color: rgb(199, 190, 190);
+}
+.toDoItem:hover .boxIconToDo {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 5px;
+}
